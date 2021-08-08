@@ -1,0 +1,21 @@
+* {
+  font-family: "Vollkorn", serif;
+}
+.color {
+  background: rgba(0, 0, 0, 0.6);
+}
+button:hover i {
+  animation: rotate 1s infinite linear;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
